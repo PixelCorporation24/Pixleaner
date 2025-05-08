@@ -7,7 +7,7 @@ CATEGORIES = {
     "Documentos": [".txt", ".docx", ".pdf", ".xlsx"],
     "Vídeos": [".mp4", ".avi", ".mov"],
     "Áudios": [".mp3", ".wav", ".aac"],
-    "Executáveis": [".exe", ".py", ".ja"],
+    "Executáveis": [".exe", ".py", ".jar"],
     "Compactos": [".zip", ".rar"],
 }
 
