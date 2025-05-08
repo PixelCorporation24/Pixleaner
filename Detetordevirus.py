@@ -6,7 +6,7 @@ virus_hashes = {
 import hashlib
 
 def calcular_hash(arquivo):
-    "Calcula o hash de um arquivo"
+    #Calcula o hash de um arquivo
     hasher = hashlib.md5()
     with open(arquivo, "rb") as f:
         while chunk := f.read(4096):
