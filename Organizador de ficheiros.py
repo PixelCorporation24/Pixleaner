@@ -17,10 +17,10 @@ def organizar_ficheiros(diretorio: str):
         print("Diretório não encontrado!")
         return
 
-for file in path.interdir():
+for file in Path.interdir():
     if file.is_file():
         for categoria, extensoes in CATEGORIES.items():
-            pasta_destino = path / categoria
+            pasta_destino = Path / categoria
             pasta_destino.mkdir(exist_ok=True)
             shutil.move(str(file), str(pasta_destino / file.name))
             print(f"Movido: {file.name} -> (pasta_destino)")
@@ -28,8 +28,4 @@ for file in path.interdir():
         
 if __name__ == "__main__":
     diretorio_utilizador = input("Digita o diretorio a ser organizado: ")
-<<<<<<< HEAD
     organizar_ficheiros(diretorio_utilizador)
-=======
-    organizar_ficheiros(diretorio_utilizador)
->>>>>>> 0faad18fe45cccfa2c780c8852a596f7ac0e580f
