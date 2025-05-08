@@ -7,7 +7,7 @@ CATEGORIES = {
     "Documentos": [".txt", ".docx", ".pdf", ".xlsx"],
     "Vídeos": [".mp4", ".avi", ".mov"],
     "Áudios": [".mp3", ".wav", ".aac"],
-    "Executáveis": [".exe", ".py", ".ja"],
+    "Executáveis": [".exe", ".py", ".jar"],
     "Compactos": [".zip", ".rar"],
 }
 
@@ -28,4 +28,8 @@ for file in path.interdir():
         
 if __name__ == "__main__":
     diretorio_utilizador = input("Digita o diretorio a ser organizado: ")
+<<<<<<< HEAD
     organizar_ficheiros(diretorio_utilizador)
+=======
+    organizar_ficheiros(diretorio_utilizador)
+>>>>>>> 0faad18fe45cccfa2c780c8852a596f7ac0e580f
