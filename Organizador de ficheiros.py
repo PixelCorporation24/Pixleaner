@@ -28,4 +28,4 @@ for file in path.interdir():
         
 if __name__ == "__main__":
     diretorio_utilizador = input("Digita o diretorio a ser organizado: ")
-    organizar_ficheiros(diretorio_usuario)
+    organizar_ficheiros(diretorio_utilizador)
